@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Employee Table</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="input">Name: <input id="Employe Name" type="text" placeholder="sonali" /> </div>
+            <div class="input">Name: <input id="Employe Age" type="text" placeholder="24" /> </div>
+            <div class="input">Name: <input id="Salary" type="text" placeholder="3000" /> </div>
+            <button id="entry">Input entry</button>
+            
+        </div>
+        
+        <table id="display">
+            <tr>
+                <th>Employe Name</th>
+                <th>Employe Age</th>
+                <th>Salary</th>
+            </tr>
+        </table>
+            
+        
+    </body>
+    <script>
+    var entry= document.getElementById("entry");
+    entry.addEventListener("click", displayDetails)
+        
